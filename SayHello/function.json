@@ -1,0 +1,23 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "name": "myQueue",
+      "queueName": "saludos",
+      "connection": "GapStorage",
+      "type": "queue",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

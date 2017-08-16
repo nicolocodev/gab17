@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "queueMsg",
+      "queueName": "saludos",
+      "connection": "GapStorage",
+      "type": "queueTrigger",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}

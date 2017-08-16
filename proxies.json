@@ -1,0 +1,11 @@
+{
+    "proxies": {
+        "proxy1": {
+            "matchCondition": {
+                "methods": [ "POST" ],
+                "route": "/api/"
+            },
+            "backendUri": "https://{yourfunctionname}.azurewebsites.net/api/sayhello"
+        }
+    }
+}
